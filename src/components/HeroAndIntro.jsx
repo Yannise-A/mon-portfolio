@@ -88,7 +88,7 @@ function HeroAndIntro() {
             className="text-xl md:text-2xl text-gray-200 mb-8"
             style={{ textShadow: "1px 1px 4px rgba(0, 0, 0, 0.8)" }}
           >
-            Développeur Web Frontend passionné, étudiant en 3ᵉ année d’informatique
+            Développeur Web FullStack passionné, étudiant en 3ᵉ année d’informatique
             à l’Université Paris 8. À la recherche d’une alternance.
           </p>
           <div ref={ctaRef} className="flex flex-col sm:flex-row justify-center gap-4">
