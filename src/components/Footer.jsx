@@ -10,7 +10,12 @@ function Footer() {
         </p>
         <p className="text-xs mt-2">
           Ce site est sous licence{" "}
-          <a href="/LICENSE" className="underline hover:text-[var(--color-orange)]">
+          <a
+            href="https://github.com/Yannise-A/mon-portfolio/blob/main/LICENSE.md"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-[var(--color-orange)]"
+          >
             MIT
           </a>.
         </p>
