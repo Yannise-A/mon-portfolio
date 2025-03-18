@@ -47,7 +47,7 @@ function Contact() {
                   bg-[var(--color-vert)] text-[var(--color-beige)]
                   rounded-lg shadow-lg
                   transition-all duration-500 ease-in-out
-                  hover:max-w-[30rem]
+                  sm:hover:max-w-[30rem]
                   origin-left
                 "
               >
@@ -65,11 +65,11 @@ function Contact() {
                     {contact.icon}
                   </a>
                 </div>
-                {/* Zone texte : affiché au survol */}
+                {/* Zone texte : affiché au survol uniquement en desktop */}
                 <div
                   className="
                     flex-grow h-24 flex items-center
-                    opacity-0 group-hover:opacity-100
+                    opacity-0 sm:group-hover:opacity-100
                     transition-all duration-500 ease-in-out
                     pr-6
                   "
@@ -95,7 +95,7 @@ function Contact() {
                 bg-[var(--color-vert)] text-[var(--color-beige)]
                 rounded-lg shadow-lg
                 transition-all duration-500 ease-in-out
-                hover:max-w-[30rem]
+                sm:hover:max-w-[30rem]
                 origin-left
               "
             >
@@ -108,11 +108,11 @@ function Contact() {
               ">
                 {contact.icon}
               </div>
-              {/* Zone texte : affiché au survol */}
+              {/* Zone texte : affiché au survol uniquement en desktop */}
               <div
                 className="
                   flex-grow h-24 flex items-center
-                  opacity-0 group-hover:opacity-100
+                  opacity-0 sm:group-hover:opacity-100
                   transition-all duration-500 ease-in-out
                   pr-6
                 "
